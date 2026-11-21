@@ -1,0 +1,98 @@
+{
+  "id": "ave-mujica",
+  "title": "Ave Mujica DLC Song Pack",
+  "description": "The Ave Mujica set.",
+  "banner": "banner.jpg",
+  "status": "ready",
+  "note": "",
+  "songs": [
+    {
+      "file": "custom_song_am_01_ave_mujica.zip",
+      "title": "Ave Mujica",
+      "jp": "",
+      "artist": "Ave Mujica",
+      "level": 11,
+      "jacket": "jackets/custom_song_am_01_ave_mujica.jpg"
+    },
+    {
+      "file": "custom_song_am_02_black_birthday.zip",
+      "title": "Black Birthday",
+      "jp": "黒のバースデイ",
+      "artist": "Ave Mujica",
+      "level": 11,
+      "jacket": "jackets/custom_song_am_02_black_birthday.jpg"
+    },
+    {
+      "file": "custom_song_am_03_georgette_me_georgette_you.zip",
+      "title": "Georgette Me, Georgette You",
+      "jp": "",
+      "artist": "Ave Mujica",
+      "level": 11,
+      "jacket": "jackets/custom_song_am_03_georgette_me_georgette_you.jpg"
+    },
+    {
+      "file": "custom_song_am_04_imprisoned_xii.zip",
+      "title": "Imprisoned XII",
+      "jp": "",
+      "artist": "Ave Mujica",
+      "level": 10,
+      "jacket": "jackets/custom_song_am_04_imprisoned_xii.jpg"
+    },
+    {
+      "file": "custom_song_am_05_alter_ego_kao.zip",
+      "title": "Alter Ego (Kao)",
+      "jp": "顔",
+      "artist": "Ave Mujica",
+      "level": 11,
+      "jacket": "jackets/custom_song_am_05_alter_ego_kao.jpg"
+    },
+    {
+      "file": "custom_song_am_06_killkiss.zip",
+      "title": "KiLLKiSS",
+      "jp": "",
+      "artist": "Ave Mujica",
+      "level": 12,
+      "jacket": "jackets/custom_song_am_06_killkiss.jpg"
+    },
+    {
+      "file": "custom_song_am_07_masquerade_rhapsody_request.zip",
+      "title": "Masquerade Rhapsody Request",
+      "jp": "",
+      "artist": "Ave Mujica",
+      "level": 12,
+      "jacket": "jackets/custom_song_am_07_masquerade_rhapsody_request.jpg"
+    },
+    {
+      "file": "custom_song_am_08_sora_no_musica.zip",
+      "title": "Sora no Musica",
+      "jp": "天球（そら）のMúsica",
+      "artist": "Ave Mujica",
+      "level": 11,
+      "jacket": "jackets/custom_song_am_08_sora_no_musica.jpg"
+    },
+    {
+      "file": "custom_song_am_09_abracadabra_cover.zip",
+      "title": "Abracadabra (Cover)",
+      "jp": "",
+      "artist": "Ave Mujica",
+      "level": 13,
+      "jacket": "jackets/custom_song_am_09_abracadabra_cover.jpg"
+    },
+    {
+      "file": "custom_song_am_10_in_your_blue_eyes.zip",
+      "title": "in your blue eyes",
+      "jp": "",
+      "artist": "Ave Mujica",
+      "level": 9,
+      "jacket": "jackets/custom_song_am_10_in_your_blue_eyes.jpg"
+    },
+    {
+      "file": "custom_song_am_11_zankoku_na_tenshi_no_thesis_ave_mujica_ver.zip",
+      "title": "Zankoku na Tenshi no Thesis (Ave Mujica Ver.)",
+      "jp": "",
+      "artist": "Ave Mujica",
+      "level": 9,
+      "jacket": "jackets/custom_song_am_11_zankoku_na_tenshi_no_thesis_ave_mujica_ver.jpg"
+    }
+  ]
+}
