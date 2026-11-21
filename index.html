@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tune Tap DLC Downloader</title>
+<style>
+:root{--bg:#0f1530;--panel:#1a2250;--panel2:#232c63;--ink:#eef0ff;--mute:#9aa3d6;--gold:#e0b968;--pink:#ff5f8d;--ok:#59d68a;--line:rgba(255,255,255,.1)}
+@media (prefers-color-scheme:light){:root{--bg:#eef0fb;--panel:#fff;--panel2:#f2f4ff;--ink:#1b2150;--mute:#5c649a;--gold:#a8791c;--line:rgba(30,40,110,.14)}}
+*{box-sizing:border-box;margin:0}
+body{background:var(--bg);color:var(--ink);font:16px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{padding:28px 16px 8px;max-width:1100px;margin:auto}
+h1{font-size:clamp(24px,5vw,38px);letter-spacing:.5px}
+h1 span{color:var(--gold)}
+.sub{color:var(--mute);margin-top:4px}
+.bar{max-width:1100px;margin:14px auto 0;padding:0 16px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.bar input{flex:1;min-width:200px;padding:10px 14px;border-radius:10px;border:1px solid var(--line);background:var(--panel);color:var(--ink);font:inherit}
+.chip{padding:6px 12px;border-radius:99px;background:var(--panel);border:1px solid var(--line);color:var(--mute);font-size:14px}
+main{max-width:1100px;margin:16px auto 60px;padding:0 16px;display:grid;gap:18px}
+.pack{background:var(--panel);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.ph{display:grid;grid-template-columns:minmax(0,340px) 1fr;gap:0}
+@media(max-width:720px){.ph{grid-template-columns:1fr}}
+.ph img.banner{width:100%;height:100%;object-fit:cover;display:block;aspect-ratio:16/9;background:var(--panel2)}
+.pi{padding:16px 18px;display:flex;flex-direction:column;gap:8px}
+.pi h2{font-size:20px}
+.pi p{color:var(--mute);font-size:14px}
+.row{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto;align-items:center}
+button,a.btn{font:inherit;cursor:pointer;border:0;border-radius:10px;padding:9px 14px;background:var(--pink);color:#fff;text-decoration:none;display:inline-block;font-weight:600}
+button.sec,a.sec{background:var(--panel2);color:var(--ink);border:1px solid var(--line)}
+button[disabled]{opacity:.45;cursor:not-allowed}
+.songs{display:none;border-top:1px solid var(--line)}
+.pack.open .songs{display:block}
+.song{display:grid;grid-template-columns:52px 1fr auto auto;gap:12px;align-items:center;padding:10px 16px;border-bottom:1px solid var(--line)}
+.song:last-child{border:0}
+.song img,.song .ph0{width:52px;height:52px;border-radius:8px;object-fit:cover;background:var(--panel2);display:flex;align-items:center;justify-content:center;color:var(--mute)}
+.song b{display:block}
+.song small{color:var(--mute)}
+.lv{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:3px 9px;font-size:13px;white-space:nowrap}
+.na{color:var(--mute);font-size:13px;white-space:nowrap}
+.ok{color:var(--ok)}
+.note{background:var(--panel2);border-left:3px solid var(--gold);padding:8px 12px;border-radius:8px;font-size:13px;color:var(--mute)}
+@media(max-width:560px){.song{grid-template-columns:44px 1fr auto}.song .lv{display:none}}
+footer{max-width:1100px;margin:0 auto 40px;padding:0 16px;color:var(--mute);font-size:13px}
+#prog{position:fixed;left:0;right:0;bottom:0;background:var(--panel);border-top:1px solid var(--line);padding:10px 16px;display:none;z-index:9}
+#prog i{display:block;height:6px;background:var(--pink);width:0;border-radius:3px;margin-top:6px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Tune Tap <span>DLC</span> Downloader</h1>
+  <div class="sub" id="sub">Loading packs…</div>
+</header>
+<div class="bar">
+  <input id="q" type="search" placeholder="Search songs or artists…">
+  <span class="chip" id="stat"></span>
+</div>
+<main id="packs"></main>
+<footer>
+  Tune Tap Simulator is an unofficial fan-made project and is not affiliated with Disney, Aniplex, Bushiroad, ATLUS/SEGA or any other rights holder.
+  Songs, jackets and artwork belong to their respective owners. Import the downloaded <code>custom_song_*.zip</code> files with the game's custom song import.
+</footer>
+<div id="prog"><span id="pt"></span><i id="pb"></i></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script>
+const $=s=>document.querySelector(s);
+const fmt=b=>b>1048576?(b/1048576).toFixed(1)+' MB':Math.max(1,Math.round(b/1024))+' KB';
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let DATA=null;
+const url=(p,f)=>`songs/${encodeURIComponent(f)}`;
+
+async function head(u){try{const r=await fetch(u,{method:'HEAD'});return r.ok}catch(e){return false}}
+
+async function init(){
+  try{DATA=await (await fetch('dlc.json?'+Date.now())).json()}
+  catch(e){$('#sub').textContent='Could not load dlc.json. Open this page through GitHub Pages or a local web server (python3 -m http.server).';return}
+  // confirm availability directly (so new zips show up even before dlc.json is rebuilt)
+  if(location.protocol!=='file:'){
+    await Promise.all(DATA.packs.flatMap(p=>p.songs.filter(s=>s.file&&!s.available).map(async s=>{
+      if(await head(url(p,s.file)))s.available=true;
+    })));
+  }
+  render();
+}
+
+function render(){
+  const q=$('#q').value.trim().toLowerCase();
+  let shown=0,have=0,total=0;
+  const el=$('#packs');el.innerHTML='';
+  DATA.packs.forEach(p=>{
+    const songs=p.songs.filter(s=>!q||(s.title+' '+s.jp+' '+s.artist+' '+p.title).toLowerCase().includes(q));
+    p.songs.forEach(s=>{total++;if(s.available)have++});
+    if(!songs.length)return;shown++;
+    const av=p.songs.filter(s=>s.available);
+    const d=document.createElement('section');d.className='pack'+(q?' open':'');
+    d.innerHTML=`<div class="ph">${p.banner?`<img class="banner" loading="lazy" src="packs/${encodeURIComponent(p.id)}/${esc(p.banner)}" alt="">`:'<div class="banner"></div>'}
+      <div class="pi"><h2>${esc(p.title)}</h2><p>${esc(p.description)}</p>
+      <div><span class="chip">${av.length}/${p.songs.length} songs available</span></div>
+      ${p.note&&!av.length?`<div class="note">${esc(p.note)}</div>`:''}
+      <div class="row"><button data-act="zip" ${av.length?'':'disabled'}>Download pack (.zip)</button>
+      <button class="sec" data-act="toggle">Song list</button></div></div></div>
+      <div class="songs">${songs.map(s=>`<div class="song">
+        ${s.jacket?`<img loading="lazy" src="packs/${encodeURIComponent(p.id)}/${esc(s.jacket)}" alt="">`:'<div class="ph0">♪</div>'}
+        <div><b>${esc(s.title)}</b><small>${esc(s.artist)}${s.jp?' / '+esc(s.jp):''}${s.file?' · '+esc(s.file):''}</small></div>
+        <span class="lv">Lv.${s.level}</span>
+        ${s.available?`<a class="btn" href="${url(p,s.file)}" download="${esc(s.file)}">Download${s.size?' · '+fmt(s.size):''}</a>`:`<span class="na">${s.file?'Not uploaded yet':'Built in'}</span>`}
+      </div>`).join('')}</div>`;
+    d.querySelector('[data-act=toggle]').onclick=()=>d.classList.toggle('open');
+    d.querySelector('[data-act=zip]').onclick=()=>zipPack(p);
+    el.appendChild(d);
+  });
+  $('#sub').textContent=`${DATA.packs.length} packs · updated ${DATA.generated||''}`;
+  $('#stat').textContent=`${have}/${total} songs uploaded`;
+  if(!shown)el.innerHTML='<p class="sub">No songs match your search.</p>';
+}
+
+async function zipPack(p){
+  if(!window.JSZip){alert('JSZip failed to load. Use the individual download buttons instead.');return}
+  const list=p.songs.filter(s=>s.available);
+  const z=new JSZip(),bar=$('#prog');bar.style.display='block';
+  try{
+    for(let i=0;i<list.length;i++){
+      $('#pt').textContent=`Fetching ${i+1}/${list.length}: ${list[i].title}`;$('#pb').style.width=(i/list.length*100)+'%';
+      const r=await fetch(url(p,list[i].file));if(!r.ok)throw new Error(list[i].file+' ('+r.status+')');
+      z.file(list[i].file,await r.blob());
+    }
+    $('#pt').textContent='Building zip…';
+    const blob=await z.generateAsync({type:'blob',compression:'STORE'},m=>{$('#pb').style.width=m.percent+'%'});
+    const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=p.id+'.zip';a.click();
+    setTimeout(()=>URL.revokeObjectURL(a.href),10000);
+  }catch(e){alert('Download failed: '+e.message)}
+  bar.style.display='none';
+}
+$('#q').addEventListener('input',()=>DATA&&render());
+init();
+</script>
+</body>
+</html>

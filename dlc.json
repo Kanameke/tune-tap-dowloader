@@ -1,0 +1,833 @@
+{
+ "packs": [
+  {
+   "id": "mygo",
+   "title": "MyGO!!!!! DLC Song Pack",
+   "description": "Haruhikage and the MyGO!!!!! set.",
+   "banner": "banner.jpg",
+   "status": "ready",
+   "note": "",
+   "songs": [
+    {
+     "file": "custom_song_mygo_01_haruhikage.zip",
+     "title": "Haruhikage",
+     "jp": "春日影",
+     "artist": "MyGO!!!!!",
+     "level": 10,
+     "jacket": "jackets/custom_song_mygo_01_haruhikage.jpg",
+     "available": true,
+     "size": 637376
+    },
+    {
+     "file": "custom_song_mygo_02_hekitenbansou.zip",
+     "title": "HekitenBansou",
+     "jp": "碧天伴走",
+     "artist": "MyGO!!!!!",
+     "level": 13,
+     "jacket": "jackets/custom_song_mygo_02_hekitenbansou.jpg",
+     "available": true,
+     "size": 636115
+    },
+    {
+     "file": "custom_song_mygo_03_hitoshizuku.zip",
+     "title": "Hitoshizuku",
+     "jp": "壱雫空",
+     "artist": "MyGO!!!!!",
+     "level": 12,
+     "jacket": "jackets/custom_song_mygo_03_hitoshizuku.jpg",
+     "available": true,
+     "size": 487659
+    },
+    {
+     "file": "custom_song_mygo_04_i_want_to_be_your_heart.zip",
+     "title": "I want to be your heart",
+     "jp": "だれかの心臓になれたなら",
+     "artist": "MyGO!!!!!",
+     "level": 12,
+     "jacket": "jackets/custom_song_mygo_04_i_want_to_be_your_heart.jpg",
+     "available": true,
+     "size": 728980
+    },
+    {
+     "file": "custom_song_mygo_05_mayoiuta.zip",
+     "title": "Mayoiuta",
+     "jp": "迷星叫",
+     "artist": "MyGO!!!!!",
+     "level": 12,
+     "jacket": "jackets/custom_song_mygo_05_mayoiuta.jpg",
+     "available": true,
+     "size": 524704
+    },
+    {
+     "file": "custom_song_mygo_06_non_breath_oblige_cover.zip",
+     "title": "Non-Breath Oblige (Cover)",
+     "jp": "ノンブレス・オブリージュ",
+     "artist": "MyGO!!!!!",
+     "level": 13,
+     "jacket": "jackets/custom_song_mygo_06_non_breath_oblige_cover.jpg",
+     "available": true,
+     "size": 713863
+    },
+    {
+     "file": "custom_song_mygo_07_silhouette_dance.zip",
+     "title": "Silhouette Dance",
+     "jp": "影色舞",
+     "artist": "MyGO!!!!!",
+     "level": 12,
+     "jacket": "jackets/custom_song_mygo_07_silhouette_dance.jpg",
+     "available": true,
+     "size": 511991
+    }
+   ],
+   "count": 7,
+   "available": 7
+  },
+  {
+   "id": "ave-mujica",
+   "title": "Ave Mujica DLC Song Pack",
+   "description": "The Ave Mujica set.",
+   "banner": "banner.jpg",
+   "status": "ready",
+   "note": "",
+   "songs": [
+    {
+     "file": "custom_song_am_01_ave_mujica.zip",
+     "title": "Ave Mujica",
+     "jp": "",
+     "artist": "Ave Mujica",
+     "level": 11,
+     "jacket": "jackets/custom_song_am_01_ave_mujica.jpg",
+     "available": true,
+     "size": 672395
+    },
+    {
+     "file": "custom_song_am_02_black_birthday.zip",
+     "title": "Black Birthday",
+     "jp": "黒のバースデイ",
+     "artist": "Ave Mujica",
+     "level": 11,
+     "jacket": "jackets/custom_song_am_02_black_birthday.jpg",
+     "available": true,
+     "size": 608343
+    },
+    {
+     "file": "custom_song_am_03_georgette_me_georgette_you.zip",
+     "title": "Georgette Me, Georgette You",
+     "jp": "",
+     "artist": "Ave Mujica",
+     "level": 11,
+     "jacket": "jackets/custom_song_am_03_georgette_me_georgette_you.jpg",
+     "available": true,
+     "size": 618981
+    },
+    {
+     "file": "custom_song_am_04_imprisoned_xii.zip",
+     "title": "Imprisoned XII",
+     "jp": "",
+     "artist": "Ave Mujica",
+     "level": 10,
+     "jacket": "jackets/custom_song_am_04_imprisoned_xii.jpg",
+     "available": true,
+     "size": 530241
+    },
+    {
+     "file": "custom_song_am_05_alter_ego_kao.zip",
+     "title": "Alter Ego (Kao)",
+     "jp": "顔",
+     "artist": "Ave Mujica",
+     "level": 11,
+     "jacket": "jackets/custom_song_am_05_alter_ego_kao.jpg",
+     "available": true,
+     "size": 632749
+    },
+    {
+     "file": "custom_song_am_06_killkiss.zip",
+     "title": "KiLLKiSS",
+     "jp": "",
+     "artist": "Ave Mujica",
+     "level": 12,
+     "jacket": "jackets/custom_song_am_06_killkiss.jpg",
+     "available": true,
+     "size": 557189
+    },
+    {
+     "file": "custom_song_am_07_masquerade_rhapsody_request.zip",
+     "title": "Masquerade Rhapsody Request",
+     "jp": "",
+     "artist": "Ave Mujica",
+     "level": 12,
+     "jacket": "jackets/custom_song_am_07_masquerade_rhapsody_request.jpg",
+     "available": true,
+     "size": 611494
+    },
+    {
+     "file": "custom_song_am_08_sora_no_musica.zip",
+     "title": "Sora no Musica",
+     "jp": "天球（そら）のMúsica",
+     "artist": "Ave Mujica",
+     "level": 11,
+     "jacket": "jackets/custom_song_am_08_sora_no_musica.jpg",
+     "available": true,
+     "size": 742406
+    },
+    {
+     "file": "custom_song_am_09_abracadabra_cover.zip",
+     "title": "Abracadabra (Cover)",
+     "jp": "",
+     "artist": "Ave Mujica",
+     "level": 13,
+     "jacket": "jackets/custom_song_am_09_abracadabra_cover.jpg",
+     "available": true,
+     "size": 783274
+    },
+    {
+     "file": "custom_song_am_10_in_your_blue_eyes.zip",
+     "title": "in your blue eyes",
+     "jp": "",
+     "artist": "Ave Mujica",
+     "level": 9,
+     "jacket": "jackets/custom_song_am_10_in_your_blue_eyes.jpg",
+     "available": true,
+     "size": 497922
+    },
+    {
+     "file": "custom_song_am_11_zankoku_na_tenshi_no_thesis_ave_mujica_ver.zip",
+     "title": "Zankoku na Tenshi no Thesis (Ave Mujica Ver.)",
+     "jp": "",
+     "artist": "Ave Mujica",
+     "level": 9,
+     "jacket": "jackets/custom_song_am_11_zankoku_na_tenshi_no_thesis_ave_mujica_ver.jpg",
+     "available": true,
+     "size": 627312
+    }
+   ],
+   "count": 11,
+   "available": 11
+  },
+  {
+   "id": "roselia",
+   "title": "Roselia DLC Song Pack",
+   "description": "Roselia covers and originals.",
+   "banner": "banner.jpg",
+   "status": "ready",
+   "note": "",
+   "songs": [
+    {
+     "file": "custom_song_10145.zip",
+     "title": "New Genesis",
+     "jp": "新時代",
+     "artist": "Roselia",
+     "level": 11,
+     "jacket": "jackets/custom_song_10145.jpg",
+     "available": true,
+     "size": 1970045
+    },
+    {
+     "file": "custom_song_10137_1.zip",
+     "title": "Six Trillion Years and One Night Story",
+     "jp": "六兆年と一夜物語",
+     "artist": "Roselia",
+     "level": 12,
+     "jacket": "jackets/custom_song_10137_1.jpg",
+     "available": true,
+     "size": 1480215
+    },
+    {
+     "file": "custom_song_10151_1.zip",
+     "title": "Blessing Chord",
+     "jp": "",
+     "artist": "Roselia",
+     "level": 11,
+     "jacket": "jackets/custom_song_10151_1.jpg",
+     "available": true,
+     "size": 1735257
+    },
+    {
+     "file": "custom_song_10513.zip",
+     "title": "Red Fraction (Cover)",
+     "jp": "",
+     "artist": "Roselia",
+     "level": 11,
+     "jacket": "jackets/custom_song_10513.jpg",
+     "available": true,
+     "size": 2185788
+    },
+    {
+     "file": "custom_song_10514.zip",
+     "title": "Synchrogazer (Cover)",
+     "jp": "",
+     "artist": "Roselia",
+     "level": 11,
+     "jacket": "jackets/custom_song_10514.jpg",
+     "available": true,
+     "size": 1688048
+    },
+    {
+     "file": "custom_song_10576.zip",
+     "title": "Bad Apple!! (feat. nomico) (Cover)",
+     "jp": "",
+     "artist": "Roselia",
+     "level": 11,
+     "jacket": "jackets/custom_song_10576.jpg",
+     "available": true,
+     "size": 1747666
+    },
+    {
+     "file": "custom_song_10099_1.zip",
+     "title": "[FULL] Fire Bird",
+     "jp": "",
+     "artist": "Roselia",
+     "level": 14,
+     "jacket": "jackets/custom_song_10099_1.jpg",
+     "available": true,
+     "size": 10752510
+    },
+    {
+     "file": "custom_song_10502_1.zip",
+     "title": "[FULL] FIRE BIRD (10th anniv. ver.)",
+     "jp": "",
+     "artist": "Roselia",
+     "level": 14,
+     "jacket": "jackets/custom_song_10502_1.jpg",
+     "available": true,
+     "size": 7835144
+    }
+   ],
+   "count": 8,
+   "available": 8
+  },
+  {
+   "id": "twst-vol1",
+   "title": "Twisted-Wonderland Vol. 1",
+   "description": "Twisted-Wonderland DLC Song Pack, volume 1.",
+   "banner": "banner.jpg",
+   "status": "ready",
+   "note": "",
+   "songs": [
+    {
+     "file": "custom_song_10372_1.zip",
+     "title": "Piece of my World (Animation Ver.)",
+     "jp": "",
+     "artist": "Night Ravens",
+     "level": 12,
+     "jacket": "jackets/custom_song_10372_1.jpg",
+     "available": true,
+     "size": 3894926
+    },
+    {
+     "file": "custom_song_10410_1.zip",
+     "title": "RED HEART RAGE",
+     "jp": "",
+     "artist": "Riddle Rosehearts",
+     "level": 10,
+     "jacket": "jackets/custom_song_10410_1.jpg",
+     "available": true,
+     "size": 4000321
+    },
+    {
+     "file": "custom_song_10468_1.zip",
+     "title": "ggwp",
+     "jp": "",
+     "artist": "Idia Shroud",
+     "level": 10,
+     "jacket": "jackets/custom_song_10468_1.jpg",
+     "available": true,
+     "size": 2416268
+    },
+    {
+     "file": "custom_song_10477_2.zip",
+     "title": "Blessing",
+     "jp": "祝福",
+     "artist": "Malleus Draconia",
+     "level": 10,
+     "jacket": "jackets/custom_song_10477_2.jpg",
+     "available": true,
+     "size": 4727058
+    },
+    {
+     "file": "custom_song_10500.zip",
+     "title": "Yoru ni Kakeru (Seiichiro Yamashita Ver.)",
+     "jp": "夜に駆ける（山下誠一郎 Ver.）",
+     "artist": "Ace Trappola",
+     "level": 11,
+     "jacket": "jackets/custom_song_10500.jpg",
+     "available": true,
+     "size": 3080108
+    },
+    {
+     "file": "custom_song_10503.zip",
+     "title": "Otome Dissection (N-kun Ver.)",
+     "jp": "乙女解剖 (Nくん Ver.)",
+     "artist": "N-kun",
+     "level": 11,
+     "jacket": "jackets/custom_song_10503.jpg",
+     "available": true,
+     "size": 14227830
+    },
+    {
+     "file": "custom_song_10537.zip",
+     "title": "KING (Nobuhiko Okamoto Ver.)",
+     "jp": "KING (岡本信彦 Ver.)",
+     "artist": "Floyd Leech",
+     "level": 11,
+     "jacket": "jackets/custom_song_10537.jpg",
+     "available": true,
+     "size": 9201595
+    },
+    {
+     "file": "custom_song_10540_1.zip",
+     "title": "RAVE-UP! UP!",
+     "jp": "",
+     "artist": "Ace Trappola, Kalim Al-Asim, Ortho Shroud",
+     "level": 11,
+     "jacket": "jackets/custom_song_10540_1.jpg",
+     "available": true,
+     "size": 5263142
+    },
+    {
+     "file": "custom_song_10546.zip",
+     "title": "Obedience",
+     "jp": "",
+     "artist": "Heartslabyul",
+     "level": 12,
+     "jacket": "jackets/custom_song_10546.jpg",
+     "available": true,
+     "size": 1625630
+    },
+    {
+     "file": "custom_song_10554.zip",
+     "title": "Absolutely Beautiful",
+     "jp": "",
+     "artist": "Night Raven College",
+     "level": 12,
+     "jacket": "jackets/custom_song_10554.jpg",
+     "available": true,
+     "size": 4299983
+    },
+    {
+     "file": "custom_song_10556.zip",
+     "title": "Piece of my World (NRC Ver.)",
+     "jp": "",
+     "artist": "Night Raven College",
+     "level": 12,
+     "jacket": "jackets/custom_song_10556.jpg",
+     "available": true,
+     "size": 4105580
+    }
+   ],
+   "count": 11,
+   "available": 11
+  },
+  {
+   "id": "release",
+   "title": "Release DLC Pack",
+   "description": "Mixed release pack.",
+   "banner": "banner.jpg",
+   "status": "ready",
+   "note": "",
+   "songs": [
+    {
+     "file": "custom_song_10584_1.zip",
+     "title": "Gira Galactic・Tightrope",
+     "jp": "Giraギャラティック･タイトロープ",
+     "artist": "WITH",
+     "level": 11,
+     "jacket": "jackets/custom_song_10584_1.jpg",
+     "available": true,
+     "size": 4689628
+    },
+    {
+     "file": "custom_song_10616.zip",
+     "title": "Abyss",
+     "jp": "",
+     "artist": "Azul Ashengrotto",
+     "level": 12,
+     "jacket": "jackets/custom_song_10616.jpg",
+     "available": true,
+     "size": 2347172
+    },
+    {
+     "file": "custom_song_10633_1.zip",
+     "title": "Door to Summer (Never end ver.)",
+     "jp": "",
+     "artist": "Riko Sakurauchi, Hanamaru Kunikida, Mari Ohara",
+     "level": 12,
+     "jacket": "jackets/custom_song_10633_1.jpg",
+     "available": true,
+     "size": 2884162
+    },
+    {
+     "file": "custom_song_10635_1.zip",
+     "title": "KIZUNA MUSIC♪",
+     "jp": "キズナミュージック♪",
+     "artist": "Poppin'Party",
+     "level": 11,
+     "jacket": "jackets/custom_song_10635_1.jpg",
+     "available": true,
+     "size": 1865311
+    },
+    {
+     "file": "custom_song_10636.zip",
+     "title": "Tanebi",
+     "jp": "焚音打",
+     "artist": "MyGO!!!!!",
+     "level": 12,
+     "jacket": "jackets/custom_song_10636.jpg",
+     "available": true,
+     "size": 7573034
+    },
+    {
+     "file": "custom_song_10637_1.zip",
+     "title": "Toy Doll (Setsuna Yuki Ver.)",
+     "jp": "Toy Doll (優木せつ菜Ver.)",
+     "artist": "Setsuna Yuki",
+     "level": 10,
+     "jacket": "jackets/custom_song_10637_1.jpg",
+     "available": true,
+     "size": 3826074
+    }
+   ],
+   "count": 6,
+   "available": 6
+  },
+  {
+   "id": "sparklink-stars-vol1",
+   "title": "Disney Sparklink Stars Vol. 1",
+   "description": "First Sparklink Stars pack. Joy in the Box, We Are aMazINC., Compass and Dance with Veil are coming soon.",
+   "banner": "banner.jpg",
+   "status": "partial",
+   "note": "",
+   "songs": [
+    {
+     "file": "custom_song_10582_1.zip",
+     "title": "We can dream it, We can do it!!",
+     "jp": "",
+     "artist": "UPBeats!",
+     "level": 10,
+     "jacket": "jackets/custom_song_10582_1.jpg",
+     "available": true,
+     "size": 4742882
+    },
+    {
+     "file": "custom_song_10566_1.zip",
+     "title": "UTAGE",
+     "jp": "",
+     "artist": "aMazINC.",
+     "level": 8,
+     "jacket": "jackets/custom_song_10566_1.jpg",
+     "available": true,
+     "size": 4559552
+    },
+    {
+     "file": "custom_song_10567_1.zip",
+     "title": "feuillemort",
+     "jp": "",
+     "artist": "Endelore",
+     "level": 7,
+     "jacket": "jackets/custom_song_10567_1.jpg",
+     "available": true,
+     "size": 4276188
+    },
+    {
+     "file": "custom_song_10564_2.zip",
+     "title": "One and Only",
+     "jp": "",
+     "artist": "Midveil",
+     "level": 8,
+     "jacket": "jackets/custom_song_10564_2.jpg",
+     "available": true,
+     "size": 3457709
+    }
+   ],
+   "count": 4,
+   "available": 4
+  },
+  {
+   "id": "persona",
+   "title": "Persona Series DLC Song Pack",
+   "description": "Persona 3, 4 and 5.",
+   "banner": "banner.jpg",
+   "status": "ready",
+   "note": "",
+   "songs": [
+    {
+     "file": "custom_song_10036.zip",
+     "title": "Burn My Dread",
+     "jp": "",
+     "artist": "Persona 3",
+     "level": 9,
+     "jacket": "jackets/custom_song_10036.jpg",
+     "available": true,
+     "size": 1144108
+    },
+    {
+     "file": "custom_song_10037.zip",
+     "title": "Pursuing My True Self",
+     "jp": "",
+     "artist": "Persona 4",
+     "level": 9,
+     "jacket": "jackets/custom_song_10037.jpg",
+     "available": true,
+     "size": 1040368
+    },
+    {
+     "file": "custom_song_10038.zip",
+     "title": "Wake Up, Get Up, Get Out There",
+     "jp": "",
+     "artist": "Persona 5",
+     "level": 9,
+     "jacket": "jackets/custom_song_10038.jpg",
+     "available": true,
+     "size": 1186841
+    }
+   ],
+   "count": 3,
+   "available": 3
+  },
+  {
+   "id": "teik-vol1-normal",
+   "title": "TeiK Charts Song Pack Vol. 1 (Normal)",
+   "description": "Normal charts by TeiK: Love Live! series songs.",
+   "banner": "banner.jpg",
+   "status": "ready",
+   "note": "",
+   "songs": [
+    {
+     "file": "custom_song_10002.zip",
+     "title": "Deep Blue",
+     "jp": "",
+     "artist": "Aqours",
+     "level": 11,
+     "jacket": "jackets/custom_song_10002.jpg",
+     "available": true,
+     "size": 2837082
+    },
+    {
+     "file": "custom_song_10070.zip",
+     "title": "Bokura no LIVE Kimi to no LIFE (Hasunosora Ver.) (Based on SI Show)",
+     "jp": "僕らのLIVE 君とのLIFE (蓮ノ空Ver.) (ベース:スクショウ)",
+     "artist": "Hasunosora Girls' High School Idol Club",
+     "level": 11,
+     "jacket": "jackets/custom_song_10070.jpg",
+     "available": true,
+     "size": 4718352
+    },
+    {
+     "file": "custom_song_10247.zip",
+     "title": "Cheer Mode",
+     "jp": "",
+     "artist": "A.L.A.N",
+     "level": 10,
+     "jacket": "jackets/custom_song_10247.jpg",
+     "available": true,
+     "size": 3069058
+    },
+    {
+     "file": "custom_song_10299.zip",
+     "title": "Yappa Tenshi!",
+     "jp": "やっぱ天使！",
+     "artist": "Megumi Fujishima",
+     "level": 10,
+     "jacket": "jackets/custom_song_10299.jpg",
+     "available": true,
+     "size": 3297402
+    },
+    {
+     "file": "custom_song_10349.zip",
+     "title": "Itoshiki Yume yo Izanaite",
+     "jp": "いとしき夢よ いざないて",
+     "artist": "Shioriko Mifune",
+     "level": 9,
+     "jacket": "jackets/custom_song_10349.jpg",
+     "available": true,
+     "size": 3570870
+    },
+    {
+     "file": "custom_song_10466.zip",
+     "title": "Like a Treasure",
+     "jp": "",
+     "artist": "Mia Taylor",
+     "level": 9,
+     "jacket": "jackets/custom_song_10466.jpg",
+     "available": true,
+     "size": 3371135
+    },
+    {
+     "file": "custom_song_10498.zip",
+     "title": "Stay (MASTER: Swipe)",
+     "jp": "Stay (MASTER:スイング)",
+     "artist": "Rina Tennoji",
+     "level": 12,
+     "jacket": "jackets/custom_song_10498.jpg",
+     "available": true,
+     "size": 3847430
+    },
+    {
+     "file": "custom_song_10559.zip",
+     "title": "Circle of Love",
+     "jp": "",
+     "artist": "Ai Miyashita",
+     "level": 10,
+     "jacket": "jackets/custom_song_10559.jpg",
+     "available": true,
+     "size": 3798738
+    },
+    {
+     "file": "custom_song_10578.zip",
+     "title": "Yakusoku ni Nare Bokura no Uta",
+     "jp": "約束になれ僕らの歌",
+     "artist": "Nijigasaki High School Idol Club",
+     "level": 9,
+     "jacket": "jackets/custom_song_10578.jpg",
+     "available": true,
+     "size": 4619426
+    },
+    {
+     "file": "custom_song_10609.zip",
+     "title": "Aspire",
+     "jp": "",
+     "artist": "Liella!",
+     "level": 9,
+     "jacket": "jackets/custom_song_10609.jpg",
+     "available": true,
+     "size": 3019201
+    },
+    {
+     "file": "custom_song_10614.zip",
+     "title": "Just woo!!",
+     "jp": "",
+     "artist": "Sumire Heanna",
+     "level": 9,
+     "jacket": "jackets/custom_song_10614.jpg",
+     "available": true,
+     "size": 3162171
+    },
+    {
+     "file": "custom_song_10638.zip",
+     "title": "SUNNY DAY SONG (Movie Edit FULL Ver.)",
+     "jp": "",
+     "artist": "μ's",
+     "level": 12,
+     "jacket": "jackets/custom_song_10638.jpg",
+     "available": true,
+     "size": 11162220
+    },
+    {
+     "file": "custom_song_10639.zip",
+     "title": "SUNNY DAY SONG (15th Anniversary Love Live! Fest FULL Ver.)",
+     "jp": "SUNNY DAY SONG (15th Anniversary ラブライブ！フェス FULL Ver.)",
+     "artist": "μ's, Aqours, Nijigasaki, Liella!, Hasunosora & more",
+     "level": 12,
+     "jacket": "jackets/custom_song_10639.jpg",
+     "available": true,
+     "size": 11332686
+    }
+   ],
+   "count": 13,
+   "available": 13
+  },
+  {
+   "id": "sif-tournament",
+   "title": "SIF Tournament Song Pack",
+   "description": "Original SIF Tournament charts. A standalone pack, not part of the TeiK series.",
+   "banner": "banner.jpg",
+   "status": "ready",
+   "note": "",
+   "songs": [
+    {
+     "file": "custom_song_10624_1.zip",
+     "title": "Nijiiro Passions! (SIF National Tournament 2021 Exhibition Ver.)",
+     "jp": "虹色Passions! (スクフェス全国大会2021エキシビションVer.)",
+     "artist": "Nijigasaki High School Idol Club",
+     "level": 12,
+     "jacket": "jackets/custom_song_10624_1.jpg",
+     "available": true,
+     "size": 1829662
+    },
+    {
+     "file": "custom_song_10625.zip",
+     "title": "START!! True dreams (SIF National Tournament 2021 Exhibition Ver.)",
+     "jp": "START!! True dreams (スクフェス全国大会2021エキシビションVer.)",
+     "artist": "Liella!",
+     "level": 12,
+     "jacket": "jackets/custom_song_10625.jpg",
+     "available": true,
+     "size": 2137650
+    },
+    {
+     "file": "custom_song_10623.zip",
+     "title": "Fantastic Departure! (SIF National Tournament 2021 Exhibition Ver.)",
+     "jp": "Fantastic Departure! (スクフェス全国大会2021エキシビションVer.)",
+     "artist": "Aqours",
+     "level": 12,
+     "jacket": "jackets/custom_song_10623.jpg",
+     "available": true,
+     "size": 4938490
+    },
+    {
+     "file": "custom_song_10622_1.zip",
+     "title": "Yume Kataruyori Yume Utaou (SIF National Tournament 2022 Ver.)",
+     "jp": "ユメ語るよりユメ歌おう (スクフェス全国大会2022Ver.)",
+     "artist": "Aqours",
+     "level": 12,
+     "jacket": "jackets/custom_song_10622_1.jpg",
+     "available": true,
+     "size": 3297676
+    },
+    {
+     "file": "custom_song_10047_1.zip",
+     "title": "Snow Halation (SIF National Tournament Ver.)",
+     "jp": "Snow Halation (スクフェス全国大会 Ver.)",
+     "artist": "μ's",
+     "level": 12,
+     "jacket": "jackets/custom_song_10047_1.jpg",
+     "available": true,
+     "size": 1551406
+    },
+    {
+     "file": "custom_song_10048.zip",
+     "title": "A song for You! You? You!! (SIF National Tournament Ver.)",
+     "jp": "A song for You! You? You!! (スクフェス全国大会 Ver.)",
+     "artist": "μ's",
+     "level": 12,
+     "jacket": "jackets/custom_song_10048.jpg",
+     "available": true,
+     "size": 1554576
+    },
+    {
+     "file": "custom_song_10046.zip",
+     "title": "No brand girls (SIF National Tournament Ver.)",
+     "jp": "No brand girls (スクフェス全国大会 Ver.)",
+     "artist": "μ's",
+     "level": 12,
+     "jacket": "jackets/custom_song_10046.jpg",
+     "available": true,
+     "size": 1339626
+    },
+    {
+     "file": "custom_song_10045.zip",
+     "title": "Yuujou No Change (SIF National Tournament Ver.)",
+     "jp": "友情ノーチェンジ (スクフェス全国大会 Ver.)",
+     "artist": "μ's",
+     "level": 12,
+     "jacket": "jackets/custom_song_10045.jpg",
+     "available": true,
+     "size": 1573569
+    },
+    {
+     "file": "custom_song_10044.zip",
+     "title": "SKY JOURNEY (SIF National Tournament Ver.)",
+     "jp": "SKY JOURNEY (スクフェス全国大会 Ver.)",
+     "artist": "Aqours",
+     "level": 12,
+     "jacket": "jackets/custom_song_10044.jpg",
+     "available": true,
+     "size": 1343243
+    }
+   ],
+   "count": 9,
+   "available": 9
+  }
+ ],
+ "generated": "2026-11-21 20:23 UTC"
+}
