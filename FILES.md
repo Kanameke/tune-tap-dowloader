@@ -52,7 +52,7 @@ Every song zip lives together in this one folder (`songs/`).
 - [x] `custom_song_10554.zip`: Absolutely Beautiful (Night Raven College, Lv.12)
 - [x] `custom_song_10556.zip`: Piece of my World (NRC Ver.) (Night Raven College, Lv.12)
 
-## Release DLC Pack
+## Release DLC Pack Vol. 1
 
 - [x] `custom_song_10584_1.zip`: Gira Galactic・Tightrope (WITH, Lv.11)
 - [x] `custom_song_10616.zip`: Abyss (Azul Ashengrotto, Lv.12)
@@ -60,6 +60,23 @@ Every song zip lives together in this one folder (`songs/`).
 - [x] `custom_song_10635_1.zip`: KIZUNA MUSIC♪ (Poppin'Party, Lv.11)
 - [x] `custom_song_10636.zip`: Tanebi (MyGO!!!!!, Lv.12)
 - [x] `custom_song_10637_1.zip`: Toy Doll (Setsuna Yuki Ver.) (Setsuna Yuki, Lv.10)
+
+## Release DLC Pack Vol. 2
+
+- [x] `custom_song_10631.zip`: START!! True dreams (Poppin'Party, Lv.12)
+- [x] `custom_song_10631_liella.zip`: START!! True dreams (Liella! Ver.) (Liella!, Lv.12)
+- [x] `custom_song_10621.zip`: Hai Yorokonde (Cover) (Hello, Happy World!, Lv.16)
+- [x] `custom_song_10580.zip`: Kyouran Hey Kids!! (THE ORAL CIGARETTES, Lv.11)
+- [x] `custom_song_10549.zip`: Stellar Stellar (millsage ver.) (millsage, Lv.11)
+- [x] `custom_song_10551.zip`: Six Trillion Years and One Night Story (Mugendai MewType Ver.) (Mugendai MewType, Lv.12)
+- [x] `custom_song_10542.zip`: DIADEM (Savanaclaw, Lv.12)
+- [x] `custom_song_10497_1.zip`: First Step (Ami Ishii, Lv.9)
+- [x] `custom_song_10475_1.zip`: Bling-Bang-Bang-Born (Creepy Nuts, Lv.11)
+- [x] `custom_song_10448.zip`: Kyuukurarin (Hello, Happy World!, Lv.14)
+- [x] `custom_song_10439.zip`: Kimi no Kokoro wa Kagayaiteru Kai? (Cover) (Cerise Bouquet, Lv.12)
+- [x] `custom_song_10377_1.zip`: Wish Song ～11 Ver.～ (Liella!, Lv.11)
+- [x] `custom_song_10183_1.zip`: Kimeta yo Hand in Hand (Kimi to Idol Precure♪ Ver.) (Cure Idol / Wink / Kyun-Kyun, Lv.12)
+- [x] `custom_song_10142.zip`: God-ish (RAISE A SUILEN, Lv.12)
 
 ## Disney Sparklink Stars Vol. 1
 
@@ -83,6 +100,7 @@ Every song zip lives together in this one folder (`songs/`).
 - [x] `custom_song_10349.zip`: Itoshiki Yume yo Izanaite (Shioriko Mifune, Lv.9)
 - [x] `custom_song_10466.zip`: Like a Treasure (Mia Taylor, Lv.9)
 - [x] `custom_song_10498.zip`: Stay (MASTER: Swipe) (Rina Tennoji, Lv.12)
+- [x] `custom_song_10527.zip`: Burn!! (Setsuna Yuki, Lv.10)
 - [x] `custom_song_10559.zip`: Circle of Love (Ai Miyashita, Lv.10)
 - [x] `custom_song_10578.zip`: Yakusoku ni Nare Bokura no Uta (Nijigasaki High School Idol Club, Lv.9)
 - [x] `custom_song_10609.zip`: Aspire (Liella!, Lv.9)
