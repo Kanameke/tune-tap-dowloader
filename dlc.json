@@ -420,7 +420,7 @@
   },
   {
    "id": "release",
-   "title": "Release DLC Pack",
+   "title": "Release DLC Pack Vol. 1",
    "description": "Mixed release pack.",
    "banner": "banner.jpg",
    "status": "ready",
@@ -489,6 +489,158 @@
    ],
    "count": 6,
    "available": 6
+  },
+  {
+   "id": "release-vol2",
+   "title": "Release DLC Pack Vol. 2",
+   "description": "Second mixed release pack.",
+   "banner": "banner.jpg",
+   "status": "ready",
+   "note": "",
+   "songs": [
+    {
+     "file": "custom_song_10631.zip",
+     "title": "START!! True dreams",
+     "jp": "",
+     "artist": "Poppin'Party",
+     "level": 12,
+     "jacket": "jackets/custom_song_10631.jpg",
+     "available": true,
+     "size": 1716791
+    },
+    {
+     "file": "custom_song_10631_liella.zip",
+     "title": "START!! True dreams (Liella! Ver.)",
+     "jp": "",
+     "artist": "Liella!",
+     "level": 12,
+     "jacket": "jackets/custom_song_10631_liella.jpg",
+     "available": true,
+     "size": 3792012
+    },
+    {
+     "file": "custom_song_10621.zip",
+     "title": "Hai Yorokonde (Cover)",
+     "jp": "はいよろこんで (Cover)",
+     "artist": "Hello, Happy World!",
+     "level": 16,
+     "jacket": "jackets/custom_song_10621.jpg",
+     "available": true,
+     "size": 4695524
+    },
+    {
+     "file": "custom_song_10580.zip",
+     "title": "Kyouran Hey Kids!!",
+     "jp": "狂乱 Hey Kids!!",
+     "artist": "THE ORAL CIGARETTES",
+     "level": 11,
+     "jacket": "jackets/custom_song_10580.jpg",
+     "available": true,
+     "size": 4485493
+    },
+    {
+     "file": "custom_song_10549.zip",
+     "title": "Stellar Stellar (millsage ver.)",
+     "jp": "",
+     "artist": "millsage",
+     "level": 11,
+     "jacket": "jackets/custom_song_10549.jpg",
+     "available": true,
+     "size": 2280301
+    },
+    {
+     "file": "custom_song_10551.zip",
+     "title": "Six Trillion Years and One Night Story (Mugendai MewType Ver.)",
+     "jp": "六兆年と一夜物語 (夢限大みゅーたいぷ Ver.)",
+     "artist": "Mugendai MewType",
+     "level": 12,
+     "jacket": "jackets/custom_song_10551.jpg",
+     "available": true,
+     "size": 1687773
+    },
+    {
+     "file": "custom_song_10542.zip",
+     "title": "DIADEM",
+     "jp": "",
+     "artist": "Savanaclaw",
+     "level": 12,
+     "jacket": "jackets/custom_song_10542.jpg",
+     "available": true,
+     "size": 2238032
+    },
+    {
+     "file": "custom_song_10497_1.zip",
+     "title": "First Step",
+     "jp": "",
+     "artist": "Ami Ishii",
+     "level": 9,
+     "jacket": "jackets/custom_song_10497_1.jpg",
+     "available": true,
+     "size": 2746085
+    },
+    {
+     "file": "custom_song_10475_1.zip",
+     "title": "Bling-Bang-Bang-Born",
+     "jp": "",
+     "artist": "Creepy Nuts",
+     "level": 11,
+     "jacket": "jackets/custom_song_10475_1.jpg",
+     "available": true,
+     "size": 4248224
+    },
+    {
+     "file": "custom_song_10448.zip",
+     "title": "Kyuukurarin",
+     "jp": "きゅうくらりん",
+     "artist": "Hello, Happy World!",
+     "level": 14,
+     "jacket": "jackets/custom_song_10448.jpg",
+     "available": true,
+     "size": 1872895
+    },
+    {
+     "file": "custom_song_10439.zip",
+     "title": "Kimi no Kokoro wa Kagayaiteru Kai? (Cover)",
+     "jp": "君のこころは輝いてるかい？(Cover)",
+     "artist": "Cerise Bouquet",
+     "level": 12,
+     "jacket": "jackets/custom_song_10439.jpg",
+     "available": true,
+     "size": 4676128
+    },
+    {
+     "file": "custom_song_10377_1.zip",
+     "title": "Wish Song ～11 Ver.～",
+     "jp": "",
+     "artist": "Liella!",
+     "level": 11,
+     "jacket": "jackets/custom_song_10377_1.jpg",
+     "available": true,
+     "size": 4959852
+    },
+    {
+     "file": "custom_song_10183_1.zip",
+     "title": "Kimeta yo Hand in Hand (Kimi to Idol Precure♪ Ver.)",
+     "jp": "決めたよHand in Hand（キミとアイドルプリキュア♪ Ver.）",
+     "artist": "Cure Idol / Wink / Kyun-Kyun",
+     "level": 12,
+     "jacket": "jackets/custom_song_10183_1.jpg",
+     "available": true,
+     "size": 5340214
+    },
+    {
+     "file": "custom_song_10142.zip",
+     "title": "God-ish",
+     "jp": "神っぽいな",
+     "artist": "RAISE A SUILEN",
+     "level": 12,
+     "jacket": "jackets/custom_song_10142.jpg",
+     "available": true,
+     "size": 1588955
+    }
+   ],
+   "count": 14,
+   "available": 14
   },
   {
    "id": "sparklink-stars-vol1",
@@ -663,6 +815,16 @@
      "size": 3847430
     },
     {
+     "file": "custom_song_10527.zip",
+     "title": "Burn!!",
+     "jp": "",
+     "artist": "Setsuna Yuki",
+     "level": 10,
+     "jacket": "jackets/custom_song_10527.jpg",
+     "available": true,
+     "size": 3605697
+    },
+    {
      "file": "custom_song_10559.zip",
      "title": "Circle of Love",
      "jp": "",
@@ -723,8 +885,8 @@
      "size": 11332686
     }
    ],
-   "count": 13,
-   "available": 13
+   "count": 14,
+   "available": 14
   },
   {
    "id": "sif-tournament",
@@ -829,5 +991,5 @@
    "available": 9
   }
  ],
- "generated": "2026-11-21 20:23 UTC"
+ "generated": "2026-11-22 01:12 UTC"
 }

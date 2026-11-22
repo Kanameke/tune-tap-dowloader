@@ -122,7 +122,7 @@ print(json.loads(z.read('manifest.json'))['name_en'])
 
 ## Files that go in `songs/`
 
-**All 72 song zips are already in `songs/`** (54 custom songs plus the 18 MyGO!!!!! / CRYCHIC and Ave Mujica songs). Use this list to check nothing is missing; `songs/FILES.md` has the same list.
+**All 87 song zips are already in `songs/`** (69 custom songs plus the 18 MyGO!!!!! / CRYCHIC and Ave Mujica songs). Use this list to check nothing is missing; `songs/FILES.md` has the same list.
 
 ### MyGO!!!!! DLC Song Pack (7 files)
 - [x] `custom_song_mygo_01_haruhikage.zip`: Haruhikage
@@ -169,13 +169,29 @@ print(json.loads(z.read('manifest.json'))['name_en'])
 - [x] `custom_song_10554.zip`: Absolutely Beautiful
 - [x] `custom_song_10556.zip`: Piece of my World (NRC Ver.)
 
-### Release DLC Pack (6 files)
+### Release DLC Pack Vol. 1 (6 files)
 - [x] `custom_song_10584_1.zip`: Gira Galactic・Tightrope
 - [x] `custom_song_10616.zip`: Abyss
 - [x] `custom_song_10633_1.zip`: Door to Summer (Never end ver.)
 - [x] `custom_song_10635_1.zip`: KIZUNA MUSIC♪
 - [x] `custom_song_10636.zip`: Tanebi
 - [x] `custom_song_10637_1.zip`: Toy Doll (Setsuna Yuki Ver.)
+
+### Release DLC Pack Vol. 2 (14 files)
+- [x] `custom_song_10631.zip`: START!! True dreams
+- [x] `custom_song_10631_liella.zip`: START!! True dreams (Liella! Ver.)
+- [x] `custom_song_10621.zip`: Hai Yorokonde (Cover)
+- [x] `custom_song_10580.zip`: Kyouran Hey Kids!!
+- [x] `custom_song_10549.zip`: Stellar Stellar (millsage ver.)
+- [x] `custom_song_10551.zip`: Six Trillion Years and One Night Story (Mugendai MewType Ver.)
+- [x] `custom_song_10542.zip`: DIADEM
+- [x] `custom_song_10497_1.zip`: First Step
+- [x] `custom_song_10475_1.zip`: Bling-Bang-Bang-Born
+- [x] `custom_song_10448.zip`: Kyuukurarin
+- [x] `custom_song_10439.zip`: Kimi no Kokoro wa Kagayaiteru Kai? (Cover)
+- [x] `custom_song_10377_1.zip`: Wish Song ～11 Ver.～
+- [x] `custom_song_10183_1.zip`: Kimeta yo Hand in Hand (Kimi to Idol Precure♪ Ver.)
+- [x] `custom_song_10142.zip`: God-ish
 
 ### Disney Sparklink Stars Vol. 1 (4 files)
 - [x] `custom_song_10582_1.zip`: We can dream it, We can do it!!
@@ -188,7 +204,7 @@ print(json.loads(z.read('manifest.json'))['name_en'])
 - [x] `custom_song_10037.zip`: Pursuing My True Self
 - [x] `custom_song_10038.zip`: Wake Up, Get Up, Get Out There
 
-### TeiK Charts Song Pack Vol. 1 (Normal) (13 files)
+### TeiK Charts Song Pack Vol. 1 (Normal) (14 files)
 - [x] `custom_song_10002.zip`: Deep Blue
 - [x] `custom_song_10070.zip`: Bokura no LIVE Kimi to no LIFE (Hasunosora Ver.) (Based on SI Show)
 - [x] `custom_song_10247.zip`: Cheer Mode
@@ -196,6 +212,7 @@ print(json.loads(z.read('manifest.json'))['name_en'])
 - [x] `custom_song_10349.zip`: Itoshiki Yume yo Izanaite
 - [x] `custom_song_10466.zip`: Like a Treasure
 - [x] `custom_song_10498.zip`: Stay (MASTER: Swipe)
+- [x] `custom_song_10527.zip`: Burn!!
 - [x] `custom_song_10559.zip`: Circle of Love
 - [x] `custom_song_10578.zip`: Yakusoku ni Nare Bokura no Uta
 - [x] `custom_song_10609.zip`: Aspire
@@ -228,7 +245,7 @@ print(json.loads(z.read('manifest.json'))['name_en'])
 ## Notes
 
 - The MyGO!!!!! and Ave Mujica zips were exported from the game's built-in data. Haruhikage is listed in the MyGO!!!!! pack as CRYCHIC.
-- The full set of 72 zips is about 215 MB. GitHub recommends repos under about 1 GB, so that is fine.
+- The full set of 87 zips is about 270 MB. GitHub recommends repos under about 1 GB, so that is fine.
 - Tune Tap Simulator is an unofficial fan-made project. Songs, jackets and artwork belong to their respective owners; only host files you are allowed to share.
 
 ## Push to GitHub
