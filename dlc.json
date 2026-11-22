@@ -14,7 +14,6 @@
      "jp": "春日影",
      "artist": "MyGO!!!!!",
      "level": 10,
-     "jacket": "jackets/custom_song_mygo_01_haruhikage.jpg",
      "available": true,
      "size": 637376
     },
@@ -24,7 +23,6 @@
      "jp": "碧天伴走",
      "artist": "MyGO!!!!!",
      "level": 13,
-     "jacket": "jackets/custom_song_mygo_02_hekitenbansou.jpg",
      "available": true,
      "size": 636115
     },
@@ -34,7 +32,6 @@
      "jp": "壱雫空",
      "artist": "MyGO!!!!!",
      "level": 12,
-     "jacket": "jackets/custom_song_mygo_03_hitoshizuku.jpg",
      "available": true,
      "size": 487659
     },
@@ -44,7 +41,6 @@
      "jp": "だれかの心臓になれたなら",
      "artist": "MyGO!!!!!",
      "level": 12,
-     "jacket": "jackets/custom_song_mygo_04_i_want_to_be_your_heart.jpg",
      "available": true,
      "size": 728980
     },
@@ -54,7 +50,6 @@
      "jp": "迷星叫",
      "artist": "MyGO!!!!!",
      "level": 12,
-     "jacket": "jackets/custom_song_mygo_05_mayoiuta.jpg",
      "available": true,
      "size": 524704
     },
@@ -64,7 +59,6 @@
      "jp": "ノンブレス・オブリージュ",
      "artist": "MyGO!!!!!",
      "level": 13,
-     "jacket": "jackets/custom_song_mygo_06_non_breath_oblige_cover.jpg",
      "available": true,
      "size": 713863
     },
@@ -74,7 +68,6 @@
      "jp": "影色舞",
      "artist": "MyGO!!!!!",
      "level": 12,
-     "jacket": "jackets/custom_song_mygo_07_silhouette_dance.jpg",
      "available": true,
      "size": 511991
     }
@@ -96,7 +89,6 @@
      "jp": "",
      "artist": "Ave Mujica",
      "level": 11,
-     "jacket": "jackets/custom_song_am_01_ave_mujica.jpg",
      "available": true,
      "size": 672395
     },
@@ -106,7 +98,6 @@
      "jp": "黒のバースデイ",
      "artist": "Ave Mujica",
      "level": 11,
-     "jacket": "jackets/custom_song_am_02_black_birthday.jpg",
      "available": true,
      "size": 608343
     },
@@ -116,7 +107,6 @@
      "jp": "",
      "artist": "Ave Mujica",
      "level": 11,
-     "jacket": "jackets/custom_song_am_03_georgette_me_georgette_you.jpg",
      "available": true,
      "size": 618981
     },
@@ -126,7 +116,6 @@
      "jp": "",
      "artist": "Ave Mujica",
      "level": 10,
-     "jacket": "jackets/custom_song_am_04_imprisoned_xii.jpg",
      "available": true,
      "size": 530241
     },
@@ -136,7 +125,6 @@
      "jp": "顔",
      "artist": "Ave Mujica",
      "level": 11,
-     "jacket": "jackets/custom_song_am_05_alter_ego_kao.jpg",
      "available": true,
      "size": 632749
     },
@@ -146,7 +134,6 @@
      "jp": "",
      "artist": "Ave Mujica",
      "level": 12,
-     "jacket": "jackets/custom_song_am_06_killkiss.jpg",
      "available": true,
      "size": 557189
     },
@@ -156,7 +143,6 @@
      "jp": "",
      "artist": "Ave Mujica",
      "level": 12,
-     "jacket": "jackets/custom_song_am_07_masquerade_rhapsody_request.jpg",
      "available": true,
      "size": 611494
     },
@@ -166,7 +152,6 @@
      "jp": "天球（そら）のMúsica",
      "artist": "Ave Mujica",
      "level": 11,
-     "jacket": "jackets/custom_song_am_08_sora_no_musica.jpg",
      "available": true,
      "size": 742406
     },
@@ -176,7 +161,6 @@
      "jp": "",
      "artist": "Ave Mujica",
      "level": 13,
-     "jacket": "jackets/custom_song_am_09_abracadabra_cover.jpg",
      "available": true,
      "size": 783274
     },
@@ -186,7 +170,6 @@
      "jp": "",
      "artist": "Ave Mujica",
      "level": 9,
-     "jacket": "jackets/custom_song_am_10_in_your_blue_eyes.jpg",
      "available": true,
      "size": 497922
     },
@@ -196,7 +179,6 @@
      "jp": "",
      "artist": "Ave Mujica",
      "level": 9,
-     "jacket": "jackets/custom_song_am_11_zankoku_na_tenshi_no_thesis_ave_mujica_ver.jpg",
      "available": true,
      "size": 627312
     }
@@ -218,7 +200,6 @@
      "jp": "新時代",
      "artist": "Roselia",
      "level": 11,
-     "jacket": "jackets/custom_song_10145.jpg",
      "available": true,
      "size": 1970045
     },
@@ -228,7 +209,6 @@
      "jp": "六兆年と一夜物語",
      "artist": "Roselia",
      "level": 12,
-     "jacket": "jackets/custom_song_10137_1.jpg",
      "available": true,
      "size": 1480215
     },
@@ -238,7 +218,6 @@
      "jp": "",
      "artist": "Roselia",
      "level": 11,
-     "jacket": "jackets/custom_song_10151_1.jpg",
      "available": true,
      "size": 1735257
     },
@@ -248,7 +227,6 @@
      "jp": "",
      "artist": "Roselia",
      "level": 11,
-     "jacket": "jackets/custom_song_10513.jpg",
      "available": true,
      "size": 2185788
     },
@@ -258,7 +236,6 @@
      "jp": "",
      "artist": "Roselia",
      "level": 11,
-     "jacket": "jackets/custom_song_10514.jpg",
      "available": true,
      "size": 1688048
     },
@@ -268,7 +245,6 @@
      "jp": "",
      "artist": "Roselia",
      "level": 11,
-     "jacket": "jackets/custom_song_10576.jpg",
      "available": true,
      "size": 1747666
     },
@@ -278,7 +254,6 @@
      "jp": "",
      "artist": "Roselia",
      "level": 14,
-     "jacket": "jackets/custom_song_10099_1.jpg",
      "available": true,
      "size": 10752510
     },
@@ -288,7 +263,6 @@
      "jp": "",
      "artist": "Roselia",
      "level": 14,
-     "jacket": "jackets/custom_song_10502_1.jpg",
      "available": true,
      "size": 7835144
     }
@@ -310,7 +284,6 @@
      "jp": "",
      "artist": "Night Ravens",
      "level": 12,
-     "jacket": "jackets/custom_song_10372_1.jpg",
      "available": true,
      "size": 3894926
     },
@@ -320,7 +293,6 @@
      "jp": "",
      "artist": "Riddle Rosehearts",
      "level": 10,
-     "jacket": "jackets/custom_song_10410_1.jpg",
      "available": true,
      "size": 4000321
     },
@@ -330,7 +302,6 @@
      "jp": "",
      "artist": "Idia Shroud",
      "level": 10,
-     "jacket": "jackets/custom_song_10468_1.jpg",
      "available": true,
      "size": 2416268
     },
@@ -340,7 +311,6 @@
      "jp": "祝福",
      "artist": "Malleus Draconia",
      "level": 10,
-     "jacket": "jackets/custom_song_10477_2.jpg",
      "available": true,
      "size": 4727058
     },
@@ -350,7 +320,6 @@
      "jp": "夜に駆ける（山下誠一郎 Ver.）",
      "artist": "Ace Trappola",
      "level": 11,
-     "jacket": "jackets/custom_song_10500.jpg",
      "available": true,
      "size": 3080108
     },
@@ -360,7 +329,6 @@
      "jp": "乙女解剖 (Nくん Ver.)",
      "artist": "N-kun",
      "level": 11,
-     "jacket": "jackets/custom_song_10503.jpg",
      "available": true,
      "size": 14227830
     },
@@ -370,7 +338,6 @@
      "jp": "KING (岡本信彦 Ver.)",
      "artist": "Floyd Leech",
      "level": 11,
-     "jacket": "jackets/custom_song_10537.jpg",
      "available": true,
      "size": 9201595
     },
@@ -380,7 +347,6 @@
      "jp": "",
      "artist": "Ace Trappola, Kalim Al-Asim, Ortho Shroud",
      "level": 11,
-     "jacket": "jackets/custom_song_10540_1.jpg",
      "available": true,
      "size": 5263142
     },
@@ -390,7 +356,6 @@
      "jp": "",
      "artist": "Heartslabyul",
      "level": 12,
-     "jacket": "jackets/custom_song_10546.jpg",
      "available": true,
      "size": 1625630
     },
@@ -400,7 +365,6 @@
      "jp": "",
      "artist": "Night Raven College",
      "level": 12,
-     "jacket": "jackets/custom_song_10554.jpg",
      "available": true,
      "size": 4299983
     },
@@ -410,7 +374,6 @@
      "jp": "",
      "artist": "Night Raven College",
      "level": 12,
-     "jacket": "jackets/custom_song_10556.jpg",
      "available": true,
      "size": 4105580
     }
@@ -432,7 +395,6 @@
      "jp": "Giraギャラティック･タイトロープ",
      "artist": "WITH",
      "level": 11,
-     "jacket": "jackets/custom_song_10584_1.jpg",
      "available": true,
      "size": 4689628
     },
@@ -442,7 +404,6 @@
      "jp": "",
      "artist": "Azul Ashengrotto",
      "level": 12,
-     "jacket": "jackets/custom_song_10616.jpg",
      "available": true,
      "size": 2347172
     },
@@ -452,7 +413,6 @@
      "jp": "",
      "artist": "Riko Sakurauchi, Hanamaru Kunikida, Mari Ohara",
      "level": 12,
-     "jacket": "jackets/custom_song_10633_1.jpg",
      "available": true,
      "size": 2884162
     },
@@ -462,7 +422,6 @@
      "jp": "キズナミュージック♪",
      "artist": "Poppin'Party",
      "level": 11,
-     "jacket": "jackets/custom_song_10635_1.jpg",
      "available": true,
      "size": 1865311
     },
@@ -472,7 +431,6 @@
      "jp": "焚音打",
      "artist": "MyGO!!!!!",
      "level": 12,
-     "jacket": "jackets/custom_song_10636.jpg",
      "available": true,
      "size": 7573034
     },
@@ -482,7 +440,6 @@
      "jp": "Toy Doll (優木せつ菜Ver.)",
      "artist": "Setsuna Yuki",
      "level": 10,
-     "jacket": "jackets/custom_song_10637_1.jpg",
      "available": true,
      "size": 3826074
     }
@@ -504,7 +461,6 @@
      "jp": "",
      "artist": "Poppin'Party",
      "level": 12,
-     "jacket": "jackets/custom_song_10631.jpg",
      "available": true,
      "size": 1716791
     },
@@ -514,7 +470,6 @@
      "jp": "",
      "artist": "Liella!",
      "level": 12,
-     "jacket": "jackets/custom_song_10631_liella.jpg",
      "available": true,
      "size": 3792012
     },
@@ -524,7 +479,6 @@
      "jp": "はいよろこんで (Cover)",
      "artist": "Hello, Happy World!",
      "level": 16,
-     "jacket": "jackets/custom_song_10621.jpg",
      "available": true,
      "size": 4695524
     },
@@ -534,7 +488,6 @@
      "jp": "狂乱 Hey Kids!!",
      "artist": "THE ORAL CIGARETTES",
      "level": 11,
-     "jacket": "jackets/custom_song_10580.jpg",
      "available": true,
      "size": 4485493
     },
@@ -544,7 +497,6 @@
      "jp": "",
      "artist": "millsage",
      "level": 11,
-     "jacket": "jackets/custom_song_10549.jpg",
      "available": true,
      "size": 2280301
     },
@@ -554,7 +506,6 @@
      "jp": "六兆年と一夜物語 (夢限大みゅーたいぷ Ver.)",
      "artist": "Mugendai MewType",
      "level": 12,
-     "jacket": "jackets/custom_song_10551.jpg",
      "available": true,
      "size": 1687773
     },
@@ -564,7 +515,6 @@
      "jp": "",
      "artist": "Savanaclaw",
      "level": 12,
-     "jacket": "jackets/custom_song_10542.jpg",
      "available": true,
      "size": 2238032
     },
@@ -574,7 +524,6 @@
      "jp": "",
      "artist": "Ami Ishii",
      "level": 9,
-     "jacket": "jackets/custom_song_10497_1.jpg",
      "available": true,
      "size": 2746085
     },
@@ -584,7 +533,6 @@
      "jp": "",
      "artist": "Creepy Nuts",
      "level": 11,
-     "jacket": "jackets/custom_song_10475_1.jpg",
      "available": true,
      "size": 4248224
     },
@@ -594,7 +542,6 @@
      "jp": "きゅうくらりん",
      "artist": "Hello, Happy World!",
      "level": 14,
-     "jacket": "jackets/custom_song_10448.jpg",
      "available": true,
      "size": 1872895
     },
@@ -604,7 +551,6 @@
      "jp": "君のこころは輝いてるかい？(Cover)",
      "artist": "Cerise Bouquet",
      "level": 12,
-     "jacket": "jackets/custom_song_10439.jpg",
      "available": true,
      "size": 4676128
     },
@@ -614,7 +560,6 @@
      "jp": "",
      "artist": "Liella!",
      "level": 11,
-     "jacket": "jackets/custom_song_10377_1.jpg",
      "available": true,
      "size": 4959852
     },
@@ -624,7 +569,6 @@
      "jp": "決めたよHand in Hand（キミとアイドルプリキュア♪ Ver.）",
      "artist": "Cure Idol / Wink / Kyun-Kyun",
      "level": 12,
-     "jacket": "jackets/custom_song_10183_1.jpg",
      "available": true,
      "size": 5340214
     },
@@ -634,7 +578,6 @@
      "jp": "神っぽいな",
      "artist": "RAISE A SUILEN",
      "level": 12,
-     "jacket": "jackets/custom_song_10142.jpg",
      "available": true,
      "size": 1588955
     }
@@ -656,7 +599,6 @@
      "jp": "",
      "artist": "UPBeats!",
      "level": 10,
-     "jacket": "jackets/custom_song_10582_1.jpg",
      "available": true,
      "size": 4742882
     },
@@ -666,7 +608,6 @@
      "jp": "",
      "artist": "aMazINC.",
      "level": 8,
-     "jacket": "jackets/custom_song_10566_1.jpg",
      "available": true,
      "size": 4559552
     },
@@ -676,7 +617,6 @@
      "jp": "",
      "artist": "Endelore",
      "level": 7,
-     "jacket": "jackets/custom_song_10567_1.jpg",
      "available": true,
      "size": 4276188
     },
@@ -686,7 +626,6 @@
      "jp": "",
      "artist": "Midveil",
      "level": 8,
-     "jacket": "jackets/custom_song_10564_2.jpg",
      "available": true,
      "size": 3457709
     }
@@ -708,7 +647,6 @@
      "jp": "",
      "artist": "Persona 3",
      "level": 9,
-     "jacket": "jackets/custom_song_10036.jpg",
      "available": true,
      "size": 1144108
     },
@@ -718,7 +656,6 @@
      "jp": "",
      "artist": "Persona 4",
      "level": 9,
-     "jacket": "jackets/custom_song_10037.jpg",
      "available": true,
      "size": 1040368
     },
@@ -728,7 +665,6 @@
      "jp": "",
      "artist": "Persona 5",
      "level": 9,
-     "jacket": "jackets/custom_song_10038.jpg",
      "available": true,
      "size": 1186841
     }
@@ -750,7 +686,6 @@
      "jp": "",
      "artist": "Aqours",
      "level": 11,
-     "jacket": "jackets/custom_song_10002.jpg",
      "available": true,
      "size": 2837082
     },
@@ -760,7 +695,6 @@
      "jp": "僕らのLIVE 君とのLIFE (蓮ノ空Ver.) (ベース:スクショウ)",
      "artist": "Hasunosora Girls' High School Idol Club",
      "level": 11,
-     "jacket": "jackets/custom_song_10070.jpg",
      "available": true,
      "size": 4718352
     },
@@ -770,7 +704,6 @@
      "jp": "",
      "artist": "A.L.A.N",
      "level": 10,
-     "jacket": "jackets/custom_song_10247.jpg",
      "available": true,
      "size": 3069058
     },
@@ -780,7 +713,6 @@
      "jp": "やっぱ天使！",
      "artist": "Megumi Fujishima",
      "level": 10,
-     "jacket": "jackets/custom_song_10299.jpg",
      "available": true,
      "size": 3297402
     },
@@ -790,7 +722,6 @@
      "jp": "いとしき夢よ いざないて",
      "artist": "Shioriko Mifune",
      "level": 9,
-     "jacket": "jackets/custom_song_10349.jpg",
      "available": true,
      "size": 3570870
     },
@@ -800,7 +731,6 @@
      "jp": "",
      "artist": "Mia Taylor",
      "level": 9,
-     "jacket": "jackets/custom_song_10466.jpg",
      "available": true,
      "size": 3371135
     },
@@ -810,7 +740,6 @@
      "jp": "Stay (MASTER:スイング)",
      "artist": "Rina Tennoji",
      "level": 12,
-     "jacket": "jackets/custom_song_10498.jpg",
      "available": true,
      "size": 3847430
     },
@@ -820,7 +749,6 @@
      "jp": "",
      "artist": "Setsuna Yuki",
      "level": 10,
-     "jacket": "jackets/custom_song_10527.jpg",
      "available": true,
      "size": 3605697
     },
@@ -830,7 +758,6 @@
      "jp": "",
      "artist": "Ai Miyashita",
      "level": 10,
-     "jacket": "jackets/custom_song_10559.jpg",
      "available": true,
      "size": 3798738
     },
@@ -840,7 +767,6 @@
      "jp": "約束になれ僕らの歌",
      "artist": "Nijigasaki High School Idol Club",
      "level": 9,
-     "jacket": "jackets/custom_song_10578.jpg",
      "available": true,
      "size": 4619426
     },
@@ -850,7 +776,6 @@
      "jp": "",
      "artist": "Liella!",
      "level": 9,
-     "jacket": "jackets/custom_song_10609.jpg",
      "available": true,
      "size": 3019201
     },
@@ -860,7 +785,6 @@
      "jp": "",
      "artist": "Sumire Heanna",
      "level": 9,
-     "jacket": "jackets/custom_song_10614.jpg",
      "available": true,
      "size": 3162171
     },
@@ -870,7 +794,6 @@
      "jp": "",
      "artist": "μ's",
      "level": 12,
-     "jacket": "jackets/custom_song_10638.jpg",
      "available": true,
      "size": 11162220
     },
@@ -880,7 +803,6 @@
      "jp": "SUNNY DAY SONG (15th Anniversary ラブライブ！フェス FULL Ver.)",
      "artist": "μ's, Aqours, Nijigasaki, Liella!, Hasunosora & more",
      "level": 12,
-     "jacket": "jackets/custom_song_10639.jpg",
      "available": true,
      "size": 11332686
     }
@@ -902,7 +824,6 @@
      "jp": "虹色Passions! (スクフェス全国大会2021エキシビションVer.)",
      "artist": "Nijigasaki High School Idol Club",
      "level": 12,
-     "jacket": "jackets/custom_song_10624_1.jpg",
      "available": true,
      "size": 1829662
     },
@@ -912,7 +833,6 @@
      "jp": "START!! True dreams (スクフェス全国大会2021エキシビションVer.)",
      "artist": "Liella!",
      "level": 12,
-     "jacket": "jackets/custom_song_10625.jpg",
      "available": true,
      "size": 2137650
     },
@@ -922,7 +842,6 @@
      "jp": "Fantastic Departure! (スクフェス全国大会2021エキシビションVer.)",
      "artist": "Aqours",
      "level": 12,
-     "jacket": "jackets/custom_song_10623.jpg",
      "available": true,
      "size": 4938490
     },
@@ -932,7 +851,6 @@
      "jp": "ユメ語るよりユメ歌おう (スクフェス全国大会2022Ver.)",
      "artist": "Aqours",
      "level": 12,
-     "jacket": "jackets/custom_song_10622_1.jpg",
      "available": true,
      "size": 3297676
     },
@@ -942,7 +860,6 @@
      "jp": "Snow Halation (スクフェス全国大会 Ver.)",
      "artist": "μ's",
      "level": 12,
-     "jacket": "jackets/custom_song_10047_1.jpg",
      "available": true,
      "size": 1551406
     },
@@ -952,7 +869,6 @@
      "jp": "A song for You! You? You!! (スクフェス全国大会 Ver.)",
      "artist": "μ's",
      "level": 12,
-     "jacket": "jackets/custom_song_10048.jpg",
      "available": true,
      "size": 1554576
     },
@@ -962,7 +878,6 @@
      "jp": "No brand girls (スクフェス全国大会 Ver.)",
      "artist": "μ's",
      "level": 12,
-     "jacket": "jackets/custom_song_10046.jpg",
      "available": true,
      "size": 1339626
     },
@@ -972,7 +887,6 @@
      "jp": "友情ノーチェンジ (スクフェス全国大会 Ver.)",
      "artist": "μ's",
      "level": 12,
-     "jacket": "jackets/custom_song_10045.jpg",
      "available": true,
      "size": 1573569
     },
@@ -982,7 +896,6 @@
      "jp": "SKY JOURNEY (スクフェス全国大会 Ver.)",
      "artist": "Aqours",
      "level": 12,
-     "jacket": "jackets/custom_song_10044.jpg",
      "available": true,
      "size": 1343243
     }
@@ -991,5 +904,5 @@
    "available": 9
   }
  ],
- "generated": "2026-11-22 01:12 UTC"
+ "generated": "2026-11-22 01:51 UTC"
 }

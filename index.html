@@ -30,16 +30,15 @@ button.sec,a.sec{background:var(--panel2);color:var(--ink);border:1px solid var(
 button[disabled]{opacity:.45;cursor:not-allowed}
 .songs{display:none;border-top:1px solid var(--line)}
 .pack.open .songs{display:block}
-.song{display:grid;grid-template-columns:52px 1fr auto auto;gap:12px;align-items:center;padding:10px 16px;border-bottom:1px solid var(--line)}
+.song{display:grid;grid-template-columns:1fr auto auto;gap:12px;align-items:center;padding:10px 16px;border-bottom:1px solid var(--line)}
 .song:last-child{border:0}
-.song img,.song .ph0{width:52px;height:52px;border-radius:8px;object-fit:cover;background:var(--panel2);display:flex;align-items:center;justify-content:center;color:var(--mute)}
 .song b{display:block}
 .song small{color:var(--mute)}
 .lv{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:3px 9px;font-size:13px;white-space:nowrap}
 .na{color:var(--mute);font-size:13px;white-space:nowrap}
 .ok{color:var(--ok)}
 .note{background:var(--panel2);border-left:3px solid var(--gold);padding:8px 12px;border-radius:8px;font-size:13px;color:var(--mute)}
-@media(max-width:560px){.song{grid-template-columns:44px 1fr auto}.song .lv{display:none}}
+@media(max-width:560px){.song{grid-template-columns:1fr auto}.song .lv{display:none}}
 footer{max-width:1100px;margin:0 auto 40px;padding:0 16px;color:var(--mute);font-size:13px}
 #prog{position:fixed;left:0;right:0;bottom:0;background:var(--panel);border-top:1px solid var(--line);padding:10px 16px;display:none;z-index:9}
 #prog i{display:block;height:6px;background:var(--pink);width:0;border-radius:3px;margin-top:6px}
@@ -57,7 +56,7 @@ footer{max-width:1100px;margin:0 auto 40px;padding:0 16px;color:var(--mute);font
 <main id="packs"></main>
 <footer>
   Tune Tap Simulator is an unofficial fan-made project and is not affiliated with Disney, Aniplex, Bushiroad, ATLUS/SEGA or any other rights holder.
-  Songs, jackets and artwork belong to their respective owners. Import the downloaded <code>custom_song_*.zip</code> files with the game's custom song import.
+  Songs and artwork belong to their respective owners. Import the downloaded <code>custom_song_*.zip</code> files with the game's custom song import.
 </footer>
 <div id="prog"><span id="pt"></span><i id="pb"></i></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
@@ -99,7 +98,6 @@ function render(){
       <div class="row"><button data-act="zip" ${av.length?'':'disabled'}>Download pack (.zip)</button>
       <button class="sec" data-act="toggle">Song list</button></div></div></div>
       <div class="songs">${songs.map(s=>`<div class="song">
-        ${s.jacket?`<img loading="lazy" src="packs/${encodeURIComponent(p.id)}/${esc(s.jacket)}" alt="">`:'<div class="ph0">♪</div>'}
         <div><b>${esc(s.title)}</b><small>${esc(s.artist)}${s.jp?' / '+esc(s.jp):''}${s.file?' · '+esc(s.file):''}</small></div>
         <span class="lv">Lv.${s.level}</span>
         ${s.available?`<a class="btn" href="${url(p,s.file)}" download="${esc(s.file)}">Download${s.size?' · '+fmt(s.size):''}</a>`:`<span class="na">${s.file?'Not uploaded yet':'Built in'}</span>`}

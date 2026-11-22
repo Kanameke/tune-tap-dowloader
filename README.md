@@ -13,7 +13,7 @@ Every song is its own `custom_song_*.zip`, and **all of them live together in on
 
 1. Open the site. Each pack is a card with its announcement picture, how many songs are available and two buttons.
 2. **Download pack (.zip)** bundles every available song of that pack into one zip (named after the pack). Unzip it, you get the individual `custom_song_*.zip` files.
-3. **Song list** opens the songs of the pack. Each row has the jacket, title, artist, level and a **Download** button for that one song. Use the search box to filter every pack by song, artist or pack name.
+3. **Song list** opens the songs of the pack. Each row has the title, artist, level and a **Download** button for that one song. Use the search box to filter every pack by song, artist or pack name.
 4. Open **Tune Tap Simulator**, tap **＋** in the song list and select the downloaded `custom_song_*.zip` files. **Do not unzip those**; the game reads them as they are.
 
 You can also skip the website: the raw zips are in this repo's `songs/` folder.
@@ -40,7 +40,6 @@ packs/
   <pack-id>/
     pack.json               title, description, which zips belong to the pack
     banner.jpg              the announcement picture (16:9)
-    jackets/                small jacket thumbnails
 ```
 
 ## Host it
@@ -64,7 +63,7 @@ const DLC_SITE='https://<you>.github.io/<repo>/';
 **Add a song to an existing pack**
 
 1. Copy the zip into `songs/`.
-2. Push. The Action rebuilds `dlc.json`. (Or run `python3 tools/build_index.py` yourself; `pip install pillow` is only needed for jacket thumbnails of brand-new songs.)
+2. Push. The Action rebuilds `dlc.json`. (Or run `python3 tools/build_index.py` yourself.)
 
 A zip that no pack lists is still picked up: the script opens its `manifest.json` and shows it under an automatic **Other songs** pack. To group it properly, add it to a `pack.json`.
 
@@ -82,7 +81,7 @@ A zip that no pack lists is still picked up: the script opens its `manifest.json
   "status": "ready",
   "note": "",
   "songs": [
-    { "file": "custom_song_12345.zip", "title": "Song Name", "jp": "", "artist": "Artist", "level": 10, "jacket": null }
+    { "file": "custom_song_12345.zip", "title": "Song Name", "jp": "", "artist": "Artist", "level": 10 }
   ]
 }
 ```
@@ -105,7 +104,7 @@ for pid in order:                                                    # each pack
         s['available'] = s['file'] in PRESENT
         s['size'] = os.path.getsize(f'songs/{s["file"]}') if s['available'] else 0
 extra = PRESENT - claimed                                            # zips no pack lists
-# ...each extra zip: read manifest.json (+ jacket) and add it to an "Other songs" pack
+# ...each extra zip: read manifest.json and add it to an "Other songs" pack
 json.dump(out, open('dlc.json', 'w'))
 ```
 
@@ -118,7 +117,7 @@ print(z.namelist())                              # manifest.json, audio, jacket,
 print(json.loads(z.read('manifest.json'))['name_en'])
 ```
 
-**The Action** (`.github/workflows/build-index.yml`) runs on pushes that touch `packs/**` or `songs/**`, installs Pillow, runs the script and commits `dlc.json` back if it changed.
+**The Action** (`.github/workflows/build-index.yml`) runs on pushes that touch `packs/**` or `songs/**`, runs the script and commits `dlc.json` back if it changed.
 
 ## Files that go in `songs/`
 
@@ -246,7 +245,7 @@ print(json.loads(z.read('manifest.json'))['name_en'])
 
 - The MyGO!!!!! and Ave Mujica zips were exported from the game's built-in data. Haruhikage is listed in the MyGO!!!!! pack as CRYCHIC.
 - The full set of 87 zips is about 270 MB. GitHub recommends repos under about 1 GB, so that is fine.
-- Tune Tap Simulator is an unofficial fan-made project. Songs, jackets and artwork belong to their respective owners; only host files you are allowed to share.
+- Tune Tap Simulator is an unofficial fan-made project. Songs and artwork belong to their respective owners; only host files you are allowed to share.
 
 ## Push to GitHub
 
