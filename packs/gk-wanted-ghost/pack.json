@@ -1,11 +1,25 @@
 {
   "id": "gk-wanted-ghost",
   "title": "Guilty Kiss: Wanted Ghost Celebration",
-  "description": "Eight Guilty Kiss songs celebrating the success of the Guilty Kiss Musical Performance \"Shikkoku no Wanted Ghost\".",
+  "description": "Ten Guilty Kiss songs celebrating the success of the Guilty Kiss Musical Performance \"Shikkoku no Wanted Ghost\".",
   "banner": "banner.jpg",
   "status": "ready",
   "note": "",
   "songs": [
+    {
+      "file": "custom_song_2040.zip",
+      "title": "Kowareyasuki",
+      "jp": "",
+      "artist": "Guilty Kiss",
+      "level": 12
+    },
+    {
+      "file": "custom_song_2047.zip",
+      "title": "Shadow gate to love",
+      "jp": "",
+      "artist": "Guilty Kiss",
+      "level": 11
+    },
     {
       "file": "custom_song_2070.zip",
       "title": "Guilty Eyes Fever",
