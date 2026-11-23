@@ -1,0 +1,42 @@
+{
+  "id": "sparklink-stars-vol1",
+  "title": "Disney Sparklink Stars Vol. 1",
+  "description": "First Sparklink Stars pack. Joy in the Box, We Are aMazINC., Compass and Dance with Veil are coming soon.",
+  "banner": "banner.jpg",
+  "status": "partial",
+  "note": "",
+  "songs": [
+    {
+      "file": "custom_song_10582_1.zip",
+      "title": "We can dream it, We can do it!!",
+      "jp": "",
+      "artist": "UPBeats!",
+      "level": 10,
+      "jacket": "jackets/custom_song_10582_1.jpg"
+    },
+    {
+      "file": "custom_song_10566_1.zip",
+      "title": "UTAGE",
+      "jp": "",
+      "artist": "aMazINC.",
+      "level": 8,
+      "jacket": "jackets/custom_song_10566_1.jpg"
+    },
+    {
+      "file": "custom_song_10567_1.zip",
+      "title": "feuillemort",
+      "jp": "",
+      "artist": "Endelore",
+      "level": 7,
+      "jacket": "jackets/custom_song_10567_1.jpg"
+    },
+    {
+      "file": "custom_song_10564_2.zip",
+      "title": "One and Only",
+      "jp": "",
+      "artist": "Midveil",
+      "level": 8,
+      "jacket": "jackets/custom_song_10564_2.jpg"
+    }
+  ]
+}
