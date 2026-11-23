@@ -1,0 +1,34 @@
+{
+  "id": "persona",
+  "title": "Persona Series DLC Song Pack",
+  "description": "Persona 3, 4 and 5.",
+  "banner": "banner.jpg",
+  "status": "ready",
+  "note": "",
+  "songs": [
+    {
+      "file": "custom_song_10036.zip",
+      "title": "Burn My Dread",
+      "jp": "",
+      "artist": "Persona 3",
+      "level": 9,
+      "jacket": "jackets/custom_song_10036.jpg"
+    },
+    {
+      "file": "custom_song_10037.zip",
+      "title": "Pursuing My True Self",
+      "jp": "",
+      "artist": "Persona 4",
+      "level": 9,
+      "jacket": "jackets/custom_song_10037.jpg"
+    },
+    {
+      "file": "custom_song_10038.zip",
+      "title": "Wake Up, Get Up, Get Out There",
+      "jp": "",
+      "artist": "Persona 5",
+      "level": 9,
+      "jacket": "jackets/custom_song_10038.jpg"
+    }
+  ]
+}
