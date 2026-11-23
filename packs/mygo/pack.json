@@ -1,0 +1,66 @@
+{
+  "id": "mygo",
+  "title": "MyGO!!!!! DLC Song Pack",
+  "description": "Haruhikage and the MyGO!!!!! set.",
+  "banner": "banner.jpg",
+  "status": "ready",
+  "note": "",
+  "songs": [
+    {
+      "file": "custom_song_mygo_01_haruhikage.zip",
+      "title": "Haruhikage",
+      "jp": "春日影",
+      "artist": "MyGO!!!!!",
+      "level": 10,
+      "jacket": "jackets/custom_song_mygo_01_haruhikage.jpg"
+    },
+    {
+      "file": "custom_song_mygo_02_hekitenbansou.zip",
+      "title": "HekitenBansou",
+      "jp": "碧天伴走",
+      "artist": "MyGO!!!!!",
+      "level": 13,
+      "jacket": "jackets/custom_song_mygo_02_hekitenbansou.jpg"
+    },
+    {
+      "file": "custom_song_mygo_03_hitoshizuku.zip",
+      "title": "Hitoshizuku",
+      "jp": "壱雫空",
+      "artist": "MyGO!!!!!",
+      "level": 12,
+      "jacket": "jackets/custom_song_mygo_03_hitoshizuku.jpg"
+    },
+    {
+      "file": "custom_song_mygo_04_i_want_to_be_your_heart.zip",
+      "title": "I want to be your heart",
+      "jp": "だれかの心臓になれたなら",
+      "artist": "MyGO!!!!!",
+      "level": 12,
+      "jacket": "jackets/custom_song_mygo_04_i_want_to_be_your_heart.jpg"
+    },
+    {
+      "file": "custom_song_mygo_05_mayoiuta.zip",
+      "title": "Mayoiuta",
+      "jp": "迷星叫",
+      "artist": "MyGO!!!!!",
+      "level": 12,
+      "jacket": "jackets/custom_song_mygo_05_mayoiuta.jpg"
+    },
+    {
+      "file": "custom_song_mygo_06_non_breath_oblige_cover.zip",
+      "title": "Non-Breath Oblige (Cover)",
+      "jp": "ノンブレス・オブリージュ",
+      "artist": "MyGO!!!!!",
+      "level": 13,
+      "jacket": "jackets/custom_song_mygo_06_non_breath_oblige_cover.jpg"
+    },
+    {
+      "file": "custom_song_mygo_07_silhouette_dance.zip",
+      "title": "Silhouette Dance",
+      "jp": "影色舞",
+      "artist": "MyGO!!!!!",
+      "level": 12,
+      "jacket": "jackets/custom_song_mygo_07_silhouette_dance.jpg"
+    }
+  ]
+}
