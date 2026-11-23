@@ -3,11 +3,29 @@
   {
    "id": "gk-wanted-ghost",
    "title": "Guilty Kiss: Wanted Ghost Celebration",
-   "description": "Eight Guilty Kiss songs celebrating the success of the Guilty Kiss Musical Performance \"Shikkoku no Wanted Ghost\".",
+   "description": "Ten Guilty Kiss songs celebrating the success of the Guilty Kiss Musical Performance \"Shikkoku no Wanted Ghost\".",
    "banner": "banner.jpg",
    "status": "ready",
    "note": "",
    "songs": [
+    {
+     "file": "custom_song_2040.zip",
+     "title": "Kowareyasuki",
+     "jp": "",
+     "artist": "Guilty Kiss",
+     "level": 12,
+     "available": true,
+     "size": 1923938
+    },
+    {
+     "file": "custom_song_2047.zip",
+     "title": "Shadow gate to love",
+     "jp": "",
+     "artist": "Guilty Kiss",
+     "level": 11,
+     "available": true,
+     "size": 1917059
+    },
     {
      "file": "custom_song_2070.zip",
      "title": "Guilty Eyes Fever",
@@ -81,8 +99,8 @@
      "size": 1663671
     }
    ],
-   "count": 8,
-   "available": 8
+   "count": 10,
+   "available": 10
   },
   {
    "id": "mygo",
@@ -369,14 +387,14 @@
    },
    "songs": [
     {
-     "locked": true,
-     "unlock": "2026-11-24T00:00:00+08:00",
-     "title": "???",
+     "file": "custom_song_10581_1.zip",
+     "title": "Unparalleled Aeons",
      "jp": "",
-     "artist": "???",
-     "level": 0,
-     "available": false,
-     "size": 0
+     "artist": "Ignihyde (Idia Shroud, Ortho Shroud)",
+     "level": 12,
+     "unlock": "2026-11-24T00:00:00+08:00",
+     "available": true,
+     "size": 3778443
     },
     {
      "locked": true,
@@ -430,7 +448,7 @@
     }
    ],
    "count": 6,
-   "available": 0
+   "available": 1
   },
   {
    "id": "twst-vol1",
@@ -1066,5 +1084,5 @@
    "available": 9
   }
  ],
- "generated": "2026-11-23 09:20 UTC"
+ "generated": "2026-11-23 20:03 UTC"
 }
