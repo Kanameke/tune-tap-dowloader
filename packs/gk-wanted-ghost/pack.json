@@ -1,0 +1,66 @@
+{
+  "id": "gk-wanted-ghost",
+  "title": "Guilty Kiss: Wanted Ghost Celebration",
+  "description": "Eight Guilty Kiss songs celebrating the success of the Guilty Kiss Musical Performance \"Shikkoku no Wanted Ghost\".",
+  "banner": "banner.jpg",
+  "status": "ready",
+  "note": "",
+  "songs": [
+    {
+      "file": "custom_song_2070.zip",
+      "title": "Guilty Eyes Fever",
+      "jp": "",
+      "artist": "Guilty Kiss",
+      "level": 11
+    },
+    {
+      "file": "custom_song_2094.zip",
+      "title": "Strawberry Trapper",
+      "jp": "",
+      "artist": "Guilty Kiss",
+      "level": 12
+    },
+    {
+      "file": "custom_song_2105.zip",
+      "title": "Guilty Night, Guilty Kiss!",
+      "jp": "",
+      "artist": "Guilty Kiss",
+      "level": 11
+    },
+    {
+      "file": "custom_song_2120.zip",
+      "title": "Guilty!? Farewell party",
+      "jp": "",
+      "artist": "Guilty Kiss",
+      "level": 10
+    },
+    {
+      "file": "custom_song_2121.zip",
+      "title": "New Romantic Sailors",
+      "jp": "",
+      "artist": "Guilty Kiss",
+      "level": 12
+    },
+    {
+      "file": "custom_song_2125.zip",
+      "title": "Love Pulsar",
+      "jp": "",
+      "artist": "Guilty Kiss",
+      "level": 11
+    },
+    {
+      "file": "custom_song_2144.zip",
+      "title": "Deep Sea Cocoon",
+      "jp": "",
+      "artist": "Guilty Kiss",
+      "level": 10
+    },
+    {
+      "file": "custom_song_2152.zip",
+      "title": "Shooting Star Warrior",
+      "jp": "",
+      "artist": "Guilty Kiss",
+      "level": 10
+    }
+  ]
+}
